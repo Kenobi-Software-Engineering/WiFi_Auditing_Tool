@@ -1,3 +1,10 @@
+'''
+
+Author: @cxrloskenobi / CvrlosKenobi
+Updated beta version to October, 2020
+
+'''
+
 import socket
 import subprocess
 from speedtest import Speedtest
