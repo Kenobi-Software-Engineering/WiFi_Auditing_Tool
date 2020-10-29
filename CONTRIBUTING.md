@@ -5,8 +5,8 @@ Contributions, issues and feature requests are very welcome. If you want improve
 
 ### General guidelines
 
-- The master branch is the official document.
-- All new translations / suggestions should be done in dedicated branch from the 'master' branch.
+- The main branch is the official document.
+- All new translations / suggestions should be done in dedicated branch from the 'main' branch.
 - It's a very nice thing to have multiple small commits as you work on the PR. It's easier to review it. Then we will squash it before merging.
 
 ### Commit messages
@@ -18,3 +18,6 @@ https://gitmoji.carloscuesta.me/
 ### Adding new translation or having a suggestion
 
 Ideally you should open a suggestion issue on [GitHub](https://github.com/zenika-open-source/how-to-promote-my-open-source/issues).
+
+
+🐛 Fix contributing link
