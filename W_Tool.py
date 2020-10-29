@@ -8,7 +8,6 @@ Updated beta version to October, 2020
 from speedtest import Speedtest
 from colorama import init
 from colorama import Fore
-from pythonping import ping
 import socket
 import subprocess
 import os
@@ -122,39 +121,3 @@ while (play == True):
     again = str(input("Do you wanna start again? y/n \n> "))
     if (again == "n"):
         play = False
-
-
-
-
-
-## Show the SSID of the wifi
-'''
-# I tried to use the pip install wifi but it really didn't work.
-# So created this
-import subprocess
-from colorama import Fore
-from colorama import init
-process = subprocess.Popen(['/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport','-I'], stdout=subprocess.PIPE)
-out, err = process.communicate()
-process.wait()
-data = ("".join(map(chr, out)))
-SSID = (data.splitlines()[12])
-wfname = (SSID.split()[1])
-print(wfname)
-Print out is:
-     agrCtlRSSI: -50
-     agrExtRSSI: 0
-    agrCtlNoise: -91
-    agrExtNoise: 0
-          state: running
-        op mode: station 
-     lastTxRate: 243
-        maxRate: 300
-lastAssocStatus: 0
-    802.11 auth: open
-      link auth: wpa2
-          BSSID: 24:de:c6:a6:9c:da
-           SSID: QueensuSecure_WPA2
-            MCS: 14
-        channel: 44,1
-'''
