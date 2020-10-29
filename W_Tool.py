@@ -20,16 +20,6 @@ def failsafe():
     return ping
   return secure
 
-## Add an option to user that can view past results
-## Add a plot about the wifi speed in an intervale/range of time
-## __Add show the SSID # Without safe mode 
-## __Add show connected devices in another terminal windows
-## Add option for disconnect devices from the connection, deauth
-
-## Exchange some libraries for self code later
-## Add some wireshark tool or extension for packet sniffing
-## Maybe some link to wifimosys or linset, stuff like that
-
 # Getting the IP address
 secure = failsafe()
 if secure == False:
