@@ -18,6 +18,3 @@ https://gitmoji.carloscuesta.me/
 ### Adding new translation or having a suggestion
 
 Ideally you should open a suggestion issue on [GitHub](https://github.com/zenika-open-source/how-to-promote-my-open-source/issues).
-
-
-🐛 Fix contributing link
