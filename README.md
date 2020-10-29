@@ -12,7 +12,8 @@ It will focus on different areas of WiFi security:
 - Cracking: WEP and WPA PSK (WPA 1 and 2).
 
 ## Contributing
-Contributions, issues and feature requests are very welcome. If you want improve this cheat sheet or translate it in another languges. Please consider opening an issue !. We will discuss it with you. Get more information about contributing in CONTRIBUTING.md.
+Feel free to add your own tools and ideas to the repository, from contributions in descriptions or documentation to code, they are very welcome.
+Get more information about contributing in CONTRIBUTING.md.
 
 ## Contributing ideas
 - Logo needed
