@@ -15,6 +15,7 @@ It will focus on different areas of WiFi security:
 Contributions, issues and feature requests are very welcome. If you want improve this cheat sheet or translate it in another languges. Please consider opening an issue !. We will discuss it with you. Get more information about contributing in CONTRIBUTING.md.
 
 ## Contributing ideas
+- Logo needed
 - Add a plot with the wifi speed in an intervale/range of time
 - Add show the SSID # Without safe mode 
 - Add show connected devices in another terminal window
